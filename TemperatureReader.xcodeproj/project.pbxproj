@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840FF7561FDA71400081945E /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FF7551FDA71400081945E /* CentralViewController.swift */; };
+		840FF7581FDA719D0081945E /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FF7571FDA719D0081945E /* PeripheralViewController.swift */; };
+		840FF75A1FDA739E0081945E /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FF7591FDA739E0081945E /* Definitions.swift */; };
+		840FF75C1FDA7D3F0081945E /* MKUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FF75B1FDA7D3F0081945E /* MKUISwitch.swift */; };
+		841C3AD21FECE16E00E7E70C /* BTLECentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C3AD11FECE16D00E7E70C /* BTLECentralViewController.swift */; };
+		84496DCF1FD9663700568096 /* HumidityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84496DCE1FD9663700568096 /* HumidityViewController.swift */; };
+		8463616A1FD7D85A0029C6AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846361691FD7D85A0029C6AC /* AppDelegate.swift */; };
+		8463616C1FD7D85A0029C6AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463616B1FD7D85A0029C6AC /* ViewController.swift */; };
+		8463616F1FD7D85A0029C6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463616D1FD7D85A0029C6AC /* Main.storyboard */; };
+		846361711FD7D85A0029C6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846361701FD7D85A0029C6AC /* Assets.xcassets */; };
+		846361741FD7D85A0029C6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846361721FD7D85A0029C6AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840FF7551FDA71400081945E /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
+		840FF7571FDA719D0081945E /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		840FF7591FDA739E0081945E /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		840FF75B1FDA7D3F0081945E /* MKUISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKUISwitch.swift; sourceTree = "<group>"; };
+		841C3AD11FECE16D00E7E70C /* BTLECentralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTLECentralViewController.swift; sourceTree = "<group>"; };
+		84496DCE1FD9663700568096 /* HumidityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumidityViewController.swift; sourceTree = "<group>"; };
+		846361661FD7D85A0029C6AC /* TemperatureReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846361691FD7D85A0029C6AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8463616B1FD7D85A0029C6AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8463616E1FD7D85A0029C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846361701FD7D85A0029C6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846361731FD7D85A0029C6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846361751FD7D85A0029C6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846361631FD7D85A0029C6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8463615D1FD7D85A0029C6AC = {
+			isa = PBXGroup;
+			children = (
+				846361681FD7D85A0029C6AC /* TemperatureReader */,
+				846361671FD7D85A0029C6AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846361671FD7D85A0029C6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846361661FD7D85A0029C6AC /* TemperatureReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846361681FD7D85A0029C6AC /* TemperatureReader */ = {
+			isa = PBXGroup;
+			children = (
+				841C3AD11FECE16D00E7E70C /* BTLECentralViewController.swift */,
+				840FF75B1FDA7D3F0081945E /* MKUISwitch.swift */,
+				846361691FD7D85A0029C6AC /* AppDelegate.swift */,
+				8463616B1FD7D85A0029C6AC /* ViewController.swift */,
+				8463616D1FD7D85A0029C6AC /* Main.storyboard */,
+				846361701FD7D85A0029C6AC /* Assets.xcassets */,
+				846361721FD7D85A0029C6AC /* LaunchScreen.storyboard */,
+				846361751FD7D85A0029C6AC /* Info.plist */,
+				84496DCE1FD9663700568096 /* HumidityViewController.swift */,
+				840FF7551FDA71400081945E /* CentralViewController.swift */,
+				840FF7571FDA719D0081945E /* PeripheralViewController.swift */,
+				840FF7591FDA739E0081945E /* Definitions.swift */,
+			);
+			path = TemperatureReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846361651FD7D85A0029C6AC /* TemperatureReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846361781FD7D85A0029C6AC /* Build configuration list for PBXNativeTarget "TemperatureReader" */;
+			buildPhases = (
+				846361621FD7D85A0029C6AC /* Sources */,
+				846361631FD7D85A0029C6AC /* Frameworks */,
+				846361641FD7D85A0029C6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureReader;
+			productName = TemperatureReader;
+			productReference = 846361661FD7D85A0029C6AC /* TemperatureReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8463615E1FD7D85A0029C6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = v2solutions;
+				TargetAttributes = {
+					846361651FD7D85A0029C6AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4G2KHJ47KE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 846361611FD7D85A0029C6AC /* Build configuration list for PBXProject "TemperatureReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8463615D1FD7D85A0029C6AC;
+			productRefGroup = 846361671FD7D85A0029C6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846361651FD7D85A0029C6AC /* TemperatureReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846361641FD7D85A0029C6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846361741FD7D85A0029C6AC /* LaunchScreen.storyboard in Resources */,
+				846361711FD7D85A0029C6AC /* Assets.xcassets in Resources */,
+				8463616F1FD7D85A0029C6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846361621FD7D85A0029C6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840FF75A1FDA739E0081945E /* Definitions.swift in Sources */,
+				841C3AD21FECE16E00E7E70C /* BTLECentralViewController.swift in Sources */,
+				8463616C1FD7D85A0029C6AC /* ViewController.swift in Sources */,
+				840FF7561FDA71400081945E /* CentralViewController.swift in Sources */,
+				840FF75C1FDA7D3F0081945E /* MKUISwitch.swift in Sources */,
+				8463616A1FD7D85A0029C6AC /* AppDelegate.swift in Sources */,
+				840FF7581FDA719D0081945E /* PeripheralViewController.swift in Sources */,
+				84496DCF1FD9663700568096 /* HumidityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8463616D1FD7D85A0029C6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8463616E1FD7D85A0029C6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846361721FD7D85A0029C6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846361731FD7D85A0029C6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846361761FD7D85A0029C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846361771FD7D85A0029C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846361791FD7D85A0029C6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = TemperatureReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.TemperatureReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8463617A1FD7D85A0029C6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = TemperatureReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.TemperatureReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846361611FD7D85A0029C6AC /* Build configuration list for PBXProject "TemperatureReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846361761FD7D85A0029C6AC /* Debug */,
+				846361771FD7D85A0029C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846361781FD7D85A0029C6AC /* Build configuration list for PBXNativeTarget "TemperatureReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846361791FD7D85A0029C6AC /* Debug */,
+				8463617A1FD7D85A0029C6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8463615E1FD7D85A0029C6AC /* Project object */;
+}
